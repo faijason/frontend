@@ -1,137 +1,47 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <title>Base Apparel</title>
-
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <!-- Internal CSS -->
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    {
-      background-color: #FFB6C1; /* Replace with your desired color */
-    }
-    .top-left-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100px; /* Adjust the size as needed */
-      height: 100px;
-    }
-    .navbar-brand img {
-      width: 150px; /* Adjust the size as needed */
-      height: 30px;
-    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-  
 </head>
-
-
-
 <body>
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container"><br>
-          <a class="navbar-brand" href="index.html">
-            <h2><img src="images/logo.svg" alt="" /></h1>
-            <span><br>
-          <!--    Spering-->
-            </span>
-          </a>
-
-        </nav>
+  <header>
+    <div class="wrapper">
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo">
       </div>
-    </header>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section ">
-
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-5 offset-md-1">
-                  <div class="detail-box">
-                    <h1>
-                      WE'RE <br>
-                      COMING <br>
-                      SOON
-                    </h1>
-                    <p>
-             Hello fellow shoppers! We're curently building our new<br>
-              fashion store. ADD your email below to stay up-to-date with<br>
-              announcements and our launch deals.
-                    </p>
-
-            <div class="col-md-3  offset-lg-1">
-              <div class="info_form ">
-                <form action="">
-                  <input type="email" placeholder="Email">
-                  <button>
-                    >
-                  </button>
-                </form>
-              </div>
-            </div>
-                    
-
-                  </div>
-                </div>
-                <div class="offset-md-1 col-md-4 img-container">
-                  <div class="img-box">
-                    <img src="images/hero-desktop.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
+      <div class="cta-section">
+        <h1><span>WE'RE</span> COMING SOON</h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <form class="input-field">
+            <input type="email" placeholder="Email Address" required>
+            <button class="btn"  aria-label="Email">
+              <img src="images/icon-arrow.svg" alt="">
+            </button>
+          </form>
       </div>
-
-    </section>
-    <!-- end slider section -->
-  </div>
-
-
-
-  <!-- footer section -->
-  <footer class="container-fluid footer_section ">
-    <div class="container">
-
+      <div class="hero-desktop"></div>
     </div>
-  </footer>
-  <!-- end  footer section -->
-
-
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/custom.js"></script>
-
-
+  </header>
+  
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
 </body>
-</body>
-
 </html>
